@@ -10,7 +10,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-body img{
+body img {
     width: 100%;
 }
 
@@ -48,20 +48,22 @@ body img{
     text-decoration: none;
     color: #575757;
 }
+
 /* End of Navbar Design Area */
 
 /* Start of Hero Area */
 
-.hero-area{
+.hero-area {
     text-align: center;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.6)),
-    url('./assets/banner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+        url('./assets/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.hero-content h1{
+
+.hero-content h1 {
     font-size: 4rem;
     padding-top: 136px;
     margin-bottom: 16px;
@@ -70,17 +72,19 @@ body img{
     color: #fff;
 }
 
-.hero-content p{
+.hero-content p {
     width: 600px;
     margin: 0 auto;
     margin-bottom: 278px;
     color: #fff;
 }
-.hero-btn{
-        padding-bottom: 80px;
+
+.hero-btn {
+    padding-bottom: 80px;
 
 }
-#hero-btn{
+
+#hero-btn {
     padding: 25px 62.5px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -88,43 +92,48 @@ body img{
 
 /* Start of Speakers Area Design */
 
-.speakers-parent{
+.speakers-parent {
     margin-top: 80px;
 }
-.spakers-title{
+
+.spakers-title {
     margin-bottom: 56px;
-    color:#000102;
+    color: #000102;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.speaker-info{
+.speaker-info {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:32px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
 }
 
-.speaker-info img{
+.speaker-info img {
     border-radius: 10px;
 }
 
-.speakers{
+.speakers {
     border: 1px solid #E5E7EB;
 }
-.speakers-content{
-    margin:24px;
+
+.speakers-content {
+    margin: 24px;
     line-height: 30px;
 }
-.speakers-content h5{
-    color:#1D4ED8;
+
+.speakers-content h5 {
+    color: #1D4ED8;
     font-weight: 600;
 }
-.speakers-content h3{
+
+.speakers-content h3 {
     font-weight: 800;
     font-size: 1.25rem;
 }
-.speakers-content p{
+
+.speakers-content p {
     font-size: 0.875rem;
     color: #575757;
 }
@@ -133,52 +142,57 @@ body img{
 
 /* Start of Pricing Section Design */
 
-.pricing-spot{
+.pricing-spot {
     margin: 80px 0;
 }
-.spot{
+
+.spot {
     text-align: center;
     margin-bottom: 48px;
 }
-.spot h1{
+
+.spot h1 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.spot p{
+.spot p {
     color: #575757;
     font-size: 1rem;
 }
 
-.card{
+.card {
     border: 1px solid #E5E7EB;
     padding: 32px;
     border-radius: 10px;
 }
-.card p{
+
+.card p {
     color: #888888;
 }
-.card h3{
+
+.card h3 {
     font-size: 2.75rem;
     color: #0D1B2A;
 }
-.card-price{
+
+.card-price {
     margin-bottom: 41px;
 }
 
-.card ul{
+.card ul {
     color: #888888;
     line-height: 30px;
     font-size: 0.875rem;
     padding-left: 16px;
 }
 
-.pricing-btn{
+.pricing-btn {
     margin-top: 20px;
 }
 
-.outline-btn{
+.outline-btn {
     width: 100%;
     padding: 11px 0;
     background-color: #fff;
@@ -189,31 +203,79 @@ body img{
     border-radius: 8px;
 }
 
-.pricing-card{
+.pricing-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:24px;
+    gap: 24px;
 }
 
-hr{
+hr {
     margin: 20px 0;
 }
 
 
-#pro-card{
+#pro-card {
     background-color: #0D1B2A;
     border-radius: 10px;
 }
-#pro-price span{
+
+#pro-price span {
     color: #93C5FD;
 }
-#pro-price h3{
+
+#pro-price h3 {
     color: #fff;
 }
-#pro-card ul{
+
+#pro-card ul {
     color: #eae9e9c5;
 }
-#common-btn{
+
+#common-btn {
     width: 100%;
 }
+
 /* End of Pricing Section Design */
+
+/* Start of Footer Area Design */
+
+footer {
+    background-color: #0D1B2A;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer-left img {
+    width: 125%;
+}
+
+.footer-right {
+    color: #fff;
+}
+
+.footer-right i {
+    font-size: 2rem;
+}
+
+.footer-hr {
+    color: gold;
+    padding: 20px 0px;
+}
+
+.copy {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+/* End of Footer Area Design */
