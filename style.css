@@ -130,3 +130,90 @@ body img{
 }
 
 /* End of Speakers Area Design */
+
+/* Start of Pricing Section Design */
+
+.pricing-spot{
+    margin: 80px 0;
+}
+.spot{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.spot h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.spot p{
+    color: #575757;
+    font-size: 1rem;
+}
+
+.card{
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    border-radius: 10px;
+}
+.card p{
+    color: #888888;
+}
+.card h3{
+    font-size: 2.75rem;
+    color: #0D1B2A;
+}
+.card-price{
+    margin-bottom: 41px;
+}
+
+.card ul{
+    color: #888888;
+    line-height: 30px;
+    font-size: 0.875rem;
+    padding-left: 16px;
+}
+
+.pricing-btn{
+    margin-top: 20px;
+}
+
+.outline-btn{
+    width: 100%;
+    padding: 11px 0;
+    background-color: #fff;
+    color: #2563EB;
+    font-weight: bold;
+    border: 1px solid #2563EB;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.pricing-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+
+#pro-card{
+    background-color: #0D1B2A;
+    border-radius: 10px;
+}
+#pro-price span{
+    color: #93C5FD;
+}
+#pro-price h3{
+    color: #fff;
+}
+#pro-card ul{
+    color: #eae9e9c5;
+}
+#common-btn{
+    width: 100%;
+}
+/* End of Pricing Section Design */
