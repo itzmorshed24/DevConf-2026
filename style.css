@@ -10,6 +10,10 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+body img{
+    width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -109,7 +113,6 @@ body {
     border: 1px solid #E5E7EB;
 }
 .speakers-content{
-    /* padding: 10px; */
     margin:24px;
     line-height: 30px;
 }
